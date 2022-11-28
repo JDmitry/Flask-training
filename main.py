@@ -1,7 +1,7 @@
 from flask import Flask
 
 app = Flask(__name__)
-print(app.url_map)
+# app.debug=True
 
 @app.route('/')
 def index():
